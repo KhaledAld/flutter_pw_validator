@@ -1,5 +1,10 @@
 /// Strings hold constant strings used across the package
-class FlutterPwValidatorStrings {
+//Strings hold constant strings used across the package
+import 'package:logi_via/core/lang/applocal.dart';
+
+class Strings {
+  Strings._();
+
   static const String AT_LEAST = "At least - character";
   static const String UPPERCASE_LETTER = "- Uppercase letter";
   static const String LOWERCASE_LETTER = "- Lowercase letter";
